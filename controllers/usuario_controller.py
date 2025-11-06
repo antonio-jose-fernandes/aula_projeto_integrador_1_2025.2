@@ -23,7 +23,7 @@ def create_usuario():
     # Cria um novo usuário
     new_user = Usuario(nome=nome,login=login,senha=senha, email=email,
     telefone=telefone)
- # Cria um novo usuário no banco de dados
+   # Cria um novo usuário no banco de dados
  db = SessionLocal()
  # Adiciona o novo usuário ao banco de dados
  db.add(new_user)
