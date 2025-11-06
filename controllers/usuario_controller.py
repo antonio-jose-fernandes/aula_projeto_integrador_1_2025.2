@@ -6,7 +6,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
 # rotas
-@app.route("/usuario/inserir")
+@app.route("/")
 def inserir_usuario():
    return render_template("usuario/cadastro.html")
 

@@ -31,13 +31,13 @@ margin-top: 20px;
 </tr>
 </thead>
 <tbody>
-{{ for user in usuarios_teste }}
+{% for user in usuarios_teste %}
 <tr>
 <td>{{ user.nome }}</td>
 <td>{{ user.telefone }}</td>
 <td>{{ user.email }}</td>
 </tr>
-{{ endfor }}
+{% endfor %}
 </tbody>
 </table>
 </div>
